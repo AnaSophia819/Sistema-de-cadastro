@@ -23,9 +23,9 @@ while True:
         print("=== USUÁRIOS ===")
 
         for cadastro in cadastros:
-            print(f'Nome: {nome['Nome']}')
-            print(f'Idade: {idade['Idade']}')
-            print(f'E-mail: {email['E-mail']}')
+            print(f'Nome: {cadastro['Nome']}')
+            print(f'Idade: {cadastro['Idade']}')
+            print(f'E-mail: {cadastro['E-mail']}')
             print('-' * 20)
 
     elif escolha == "3":
@@ -35,4 +35,3 @@ while True:
     else:
         print("Resposta inválida.")
 
-        
